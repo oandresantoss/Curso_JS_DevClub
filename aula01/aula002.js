@@ -19,5 +19,12 @@ const usuarios = [
     }
 
 ]
+   
+console.log(usuarios[2]) //Aqui usei um array para juntar vários objetos
 
-console.log(usuarios[2])
+const teste = {
+        nome: "André",
+        idade: 27
+    }
+console.log(teste) // aqui usei um onjeto que pode conter varias variaveis
+
