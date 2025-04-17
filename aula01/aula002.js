@@ -1,4 +1,4 @@
-const meuArray = [
+const usuarios = [
     {
         nome: 'André',
         idade: 37,
@@ -6,10 +6,11 @@ const meuArray = [
         conjuge: 'Mírian'
     },
     {
-        nome: 'ACarloa Felipe',
+        nome: 'Carlos Felipe',
         idade: 36,
         casado: true,
         conjuge: 'Carol'
     }
 
 ]
+console.log(usuarios[1])
