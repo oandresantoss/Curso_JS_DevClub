@@ -6,7 +6,7 @@
 
     [ ] O que é uma função e como usar
     [ ] Função VOID (vazia)
-    [ ] Função co parâmetros
+    [ ] Função com parâmetros
     [ ] Função Return
     [ ] Arrow Function
 */
@@ -17,6 +17,16 @@
  }
  
  digaMeunome()
+
+ function digaQualuqerNome(nome){
+    console.log(nome)
+ }
+
+ digaQualuqerNome('André')
+ digaQualuqerNome('Mírian')
+ digaQualuqerNome('Joselia')
+ digaQualuqerNome('Gabriel')
+ digaQualuqerNome('Luiz')
 
 
 /* void */
