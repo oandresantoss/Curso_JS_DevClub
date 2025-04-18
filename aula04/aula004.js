@@ -4,11 +4,11 @@
         - Trecho de código que pode ser usado varia vezes
 
 
-    [ ] O que é uma função e como usar
-    [ ] Função VOID (vazia)
-    [ ] Função com parâmetros
-    [ ] Função Return
-    [ ] Arrow Function
+    [x] O que é uma função e como usar
+    [x] Função VOID (vazia) / Não retorna nada
+    [x] Função com parâmetros
+    [x] Função Return
+    [x] Arrow Function
 */
 
  function digaMeunome(){
@@ -22,7 +22,6 @@
     console.log(nome)
  }
 
- digaQualuqerNome('André')
  digaQualuqerNome('Mírian')
  digaQualuqerNome('Joselia')
  digaQualuqerNome('Gabriel')

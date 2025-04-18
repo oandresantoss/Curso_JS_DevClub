@@ -2,19 +2,14 @@
 
 
 
-function cidade(RJ,SP,PB){
-    const RJ = 350000
-    const SP = 600000
-    const PB = 259000
+function cidade(cidadegrande,cidadepequena){ 
+    if (cidadegrande > 30000){
+        return "CIDADE GRANDE"
+    } else {
+        return "CIDADE PEQUENA"
+    }
+
 }
 
-if cidade() > 30000 {
-    let totalcidade = ('CIDADE GRANDE')
-  
-} else {
-    let totalcidade = ('CIDADE PEQUENA')
-   
-    console.log(`A cidade de `cidade(RJ)` é uma ${totalcidade}`)
-    console.log(`A cidade de `cidade(SP)` é uma ${totalcidade}`)
-    console.log(`A cidade de `cidade(PB)`  é uma ${totalcidade}`)
-}
+const RJ  = soma(cidade>3000)
+console.log(RJ)
