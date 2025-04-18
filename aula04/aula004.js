@@ -11,8 +11,12 @@
     [ ] Arrow Function
 */
 
+ function digaMeunome(){
+    const nome = 'André'
+    console.log(nome)
+ }
  
-
+ digaMeunome()
 
 
 /* void */
