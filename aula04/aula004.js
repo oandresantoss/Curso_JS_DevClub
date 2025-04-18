@@ -10,3 +10,12 @@
     [ ] Função Return
     [ ] Arrow Function
 */
+
+ 
+
+
+
+/* void */
+
+/* parâmetros */
+
